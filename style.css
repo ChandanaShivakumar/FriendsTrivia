@@ -1,0 +1,91 @@
+
+body {
+    background-image: url("wallpaper.png");
+    background-repeat: no-repeat;
+   background-attachment: fixed;
+background-size: cover;
+}
+
+.grid {
+    width: 800px;
+    height: 700px;
+    margin: 0 auto;
+    padding: 10px 0px 0px 50px;
+}
+
+.grid h1 {
+    font-family: "sans-serif";
+    background-color: darkseagreen;
+    font-size: 60px;
+    text-align: center;
+    color: black;
+    border: 1px solid black;    
+}
+
+#score {
+    background-color: white;
+    border: 1px solid black; 
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+
+.grid #question {
+    font-family:serif;
+    font-size: 25px;
+    background-color: white;
+    border: 1px solid black;
+    color:black;
+}
+
+.buttons {
+    margin-top: 0px;
+}
+
+#b0, #b1, #b2, #b3 {
+    background-color: white;
+    width: 250px;
+    font-size: 20px;
+    color: black;
+    border: 1px solid black;
+    margin: 20px 30px 20px 50px;
+    padding: 20px 10px;
+}
+
+#b0:hover, #b1:hover, #b2:hover, #b3:hover {
+    cursor: pointer;
+    background-color: darkseagreen;
+}
+
+#b0:focus, #b1:focus, #b2:focus, #b3:focus {
+    outline: 0;
+}
+
+#progress {
+    background-color: darkseagreen;
+    border: 1px solid black;
+    color: black;
+    font-size: 25px;
+}
+
+#load {
+    width: 30;
+    height: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#refresh {
+    background-color: white;
+    width:200px;
+    font-size: 20px;
+    color: black;
+    padding: 15px 5px;
+}
+
+#refresh:hover {
+    cursor: pointer;
+    background-color: darkseagreen;
+    color:black;
+}
